@@ -7,6 +7,7 @@ mvn clean install
 
 To run:
 <path_to_jdk_11>\bin\java.exe -jar <output_jar_file>
+
 main class - org.avilio.App
 
 For example:
