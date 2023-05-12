@@ -23,7 +23,6 @@ public class Logic {
     }
 
     public static String checkForName(String string) {
-        String result;
         if (!containsOnlyAlphabetCharacters(string))
             return "Пожалуйста, введите корректные данные";
         if (string.equalsIgnoreCase("Вячеслав")) {
@@ -44,7 +43,7 @@ public class Logic {
         for (String number : numbers) {
             int num = Integer.parseInt(number);
             if (num % 3 == 0 && num != 0) {
-                sb.append(num + "  ");
+                sb.append(num).append(" ");
             }
         }
         return sb.toString().trim();

@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MyGUI extends JFrame implements ActionListener{
-    private JFrame jFrame;
 
     private JPanel buttonsPanel;
     // объявление переменных для компонентов
