@@ -8,11 +8,11 @@ mvn clean install
 To run:
 <path_to_jdk_11>\bin\java.exe -jar <output_jar_file>
 
-main class - org.avilio.App
-
 For example:
 
 "C:\Program Files\Java\jdk-11.0.2\bin\java.exe" -jar "D:\java\ForTestTask\target\test-task.jar"
+
+main class - org.avilio.App
 
 ![Running application](./testtask.png)
 
